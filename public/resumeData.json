@@ -1,0 +1,215 @@
+{
+  "main": {
+    "name": "Qian Zhong",
+    "description": "I am a web development engineer using MERN (MongoDB, Express, React, Nodejs) to develop pages. I am also interested in Data Analysis using python for data mining. Below shows resume and blogs",
+    "image": "cat.png",
+    "bio": "Four months work term experience as Data Analyst and React Full stack developer; Two years working experience in the Security testing field and experience in Git, Burpsuit, Python; Half year working experience as front end developer and experience in JavaScript, React, CSS, Html, Git; Successfully published four patents. They are related to Security, Testing, Machine Learning",
+    "contactmessage": "Feel free to contact me :D",
+    "email": "qzhong@mun.ca",
+    "phone": "709-219-6573",
+    "github": "https://github.com/qzhongmun?tab=repositories",
+    "project": "https://www.linkedin.com/in/qian-zhong-a5880422a",
+    "address": {
+      "street": "",
+      "city": "St John's",
+      "state": "NL, Canada",
+      "zip": ""
+    },
+    "website": "",
+    "resumedownload": "https://www.dropbox.com/s/i3hsgpb7f0284gi/1.%20Resume%20_%20Qian%20Zhong.pdf?dl=0",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "twitter",
+        "url": "http://twitter.com",
+        "className": "fa fa-twitter"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/qian-zhong-a5880422a",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "http://instagram.com/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/qzhongmun/react-resume",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "I experienced in Data Analysis (Python, Pandas, Numpy, Scikit-learn), Fall Stack development (MERN: MongoDB, Express, React, Nodejs), Algorithm (LSTM, ANN, Random forest)",
+    "education": [
+      {
+        "school": "Memorial University of Newfoundland",
+        "degree": "Master of Computer Science",
+        "graduated": "Agustine 2023",
+        "description": "Got Average Grade 91.7/GPA:4; Software Engineering/86/GPA4; Database Tech and Applications/87/GPA:4; Applied Algorithms/89/GPA:4;Sp.Tpcs. in Adv Intrction Tec/94/GPA:4; Data Preparation Techniques/95/GPA:4; Comp Based Tools and Applications/99/GPA:4; "
+      },
+      {
+        "school": "SouthWest JiaoTong University",
+        "degree": "Bachelor of Computer Science",
+        "graduated": "Jun 2017",
+        "description": "Got Average Final Grade 81/GPA:3.14, and got Comprehensive Scholarship annually; Got an Outstanding Student Cadres in 2015; Got NACTranS Group award 3rd place award by Ministry Of Education in 2018"
+      }
+    ],
+    "work": [
+      {
+        "company": "Memorial University, Faculty of Engineering",
+        "title": "Work Term: Data Analyst, React Developer",
+        "years": "Sep 2022 - Present",
+        "description": "Using Python, Jupyter Notebooks, Pandas, Numpy, matplotlib, seaborn, and sklearn to prepare and analyze data; Building full-stack data visualization interfaces website using MERN Stack(MongoDB, Express, React, Node)"
+      },
+      {
+        "company": "Memorial University",
+        "title": "Teaching Assistant",
+        "years": "Jan 2022 – May 2022",
+        "description": "Supervises students for examinations in Comp 2001; Corrects student assignments, and records marks and reports to Professor"
+      },
+      {
+        "company": "Chengdu Yuanyin Wisdom Technology Co., Ltd.",
+        "title": "Front-End Developer",
+        "years": "Dec 2020 – May 2021",
+        "description": "Learned Graph Database: Apache TinkerPop Gremlin Server; Designed web pages using React framework, and designed a mobile phone take-out ordering system for Japanese users"
+      },
+      {
+        "company": "Sichuan Changhong Electric Co., Ltd.",
+        "title": "Security Testing Engineer",
+        "years": "Jul 2017 – Jul 2019",
+        "description": "Used tools such as Burpsuit and Nmap to execute security tests"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Python",
+        "level": "70%",
+        "color": "#ef5767"
+      },
+      {
+        "name": "Pandas",
+        "level": "90%",
+        "color": "#ef5767"
+      },
+      {
+        "name": "Numpy",
+        "level": "90%",
+        "color": "#ef5767"
+      },
+      {
+        "name": "Scikit-learn",
+        "level": "70%",
+        "color": "#ef5767"
+      },
+      {
+        "name": "ReactJs",
+        "level": "60%",
+        "color": "#ef5767"
+      },
+      {
+        "name": "CSS",
+        "level": "90%",
+        "color": "#ef5767"
+      },
+      {
+        "name": "MongoDB",
+        "level": "90%",
+        "color": "#ef5767"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "3D interactive plot",
+        "category": "",
+        "image": "6.png",
+        "url": ""
+      },
+      {
+        "title": "Multiple parameters analysis",
+        "category": "",
+        "image": "2.png",
+        "url": ""
+      },
+      {
+        "title": "Single Target analysis",
+        "category": "",
+        "image": "3.png",
+        "url": ""
+      },
+      {
+        "title": "3D map",
+        "category": "",
+        "image": "5.png",
+        "url": ""
+      },
+
+      {
+        "title": "Global map",
+        "category": "",
+        "image": "7.png",
+        "url": ""
+      },
+      {
+        "title": "",
+        "category": "",
+        "image": "p1.png",
+        "url": ""
+      },
+      {
+        "title": "",
+        "category": "",
+        "image": "p2.png",
+        "url": ""
+      },
+      {
+        "title": "",
+        "category": "",
+        "image": "p3.png",
+        "url": ""
+      },
+      {
+        "title": "",
+        "category": "",
+        "image": "p4.png",
+        "url": ""
+      },
+      {
+        "title": "",
+        "category": "",
+        "image": "p5.png",
+        "url": ""
+      },
+      {
+        "title": "",
+        "category": "",
+        "image": "p6.png",
+        "url": ""
+      },
+      {
+        "title": "",
+        "category": "",
+        "image": "p7.png",
+        "url": ""
+      }
+    ]
+  },
+  "blog": {
+    "projects": [
+      {
+        "title": "*",
+        "category": "",
+        "image": "",
+        "url": ""
+      }
+    ]
+  }
+}
