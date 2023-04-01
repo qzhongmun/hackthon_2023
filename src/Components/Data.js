@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import Fade from "react-reveal";
 
-class About extends Component {
+class Data extends Component {
   render() {
     return (
-      <section id="about">
+      <section id="data">
         <Fade duration={1000}>
           <div className="row">
             <div className="three columns"></div>
@@ -19,4 +19,4 @@ class About extends Component {
   }
 }
 
-export default About;
+export default Data;

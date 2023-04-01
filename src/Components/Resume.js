@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import Slide from "react-reveal";
 
-class Resume extends Component {
+class chart extends Component {
   render() {
     return (
-      <section id="resume">
+      <section id="chart">
         <Slide left duration={1300}>
           <div className="row ">
             <div className="three columns header-col"></div>
@@ -16,4 +16,4 @@ class Resume extends Component {
   }
 }
 
-export default Resume;
+export default chart;

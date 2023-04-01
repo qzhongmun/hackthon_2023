@@ -9,7 +9,7 @@
    a. General Styles
    b. Header Styles
    c. About Section
-   d. Resume Section
+   d. chart Section
    e. Portfolio Section
    f. Call To Action Section
    g. Testimonials Section
@@ -24,7 +24,8 @@
 
 body {
   /* background: #0f0f0f; */
-  background: #f1707d;
+  /* background: #336459; */
+  background: #336459;
 }
 
 /* ------------------------------------------------------------------ */
@@ -40,7 +41,7 @@ header {
   text-align: center;
   overflow: hidden;
   /* background-color: white; */
-  /* background-color: #f1707d; */
+  /* background-color: #336459; */
 }
 
 /* vertically center banner section */
@@ -154,7 +155,7 @@ header .scrolldown a:hover {
 }
 .opaque {
   /* background-color: #333; */
-  background-color: #f1707d;
+  background-color: #336459;
 }
 
 /* hide toggle button */
@@ -185,7 +186,7 @@ ul#nav li a {
   line-height: 32px;
   text-decoration: none;
   text-align: left;
-  color: #fff;
+  /* color: #fff; */
 
   -webkit-transition: color 0.2s ease-in-out;
   -moz-transition: color 0.2s ease-in-out;
@@ -195,21 +196,21 @@ ul#nav li a {
 }
 
 ul#nav li a:active {
-  background-color: transparent !important;
+  /* background-color: transparent !important; */
 }
 ul#nav li.current a {
-  /* color: #fe6928;
-   */
-  /* color: #7e2a2a;
-   */
-  color: #542f2b;
+  /* color: #fe6928; */
+  color: black;
+  /* color: #7e2a2a; */
+
+  /* color: #542f2b; */
 }
 
 /* ------------------------------------------------------------------ */
 /* c. About Section
 /* ------------------------------------------------------------------ */
 
-#about {
+#data {
   /* background: #000524; */
   background: #b8f1ed;
   padding-top: 96px;
@@ -217,90 +218,90 @@ ul#nav li.current a {
   overflow: hidden;
 }
 
-#about a,
-#about a:visited {
+#data a,
+#data a:visited {
   color: #fff;
 }
-#about a:hover,
-#about a:focus {
+#data a:hover,
+#data a:focus {
   color: #f1b8f1;
 }
 
-#about h2 {
+#data h2 {
   font: 22px/30px "opensans-bold", sans-serif;
   color: #444;
   margin-bottom: 12px;
 }
-#about p {
+#data p {
   line-height: 30px;
   color: #444;
 }
-#about .profile-pic {
+#data .profile-pic {
   position: relative;
   width: 120px;
   height: 120px;
   border-radius: 100%;
 }
-#about .contact-details {
+#data .contact-details {
   width: 41.66667%;
 }
-#about .download {
+#data .download {
   width: 58.33333%;
   padding-top: 6px;
 }
-#about .main-col {
+#data .main-col {
   padding-right: 5%;
 }
-#about .download .button {
+#data .download .button {
   margin-top: 6px;
   background: #444;
 }
-#about .download .button:hover {
+#data .download .button:hover {
   background: #fff;
   color: #2b2b2b;
 }
-#about .download .button i {
+#data .download .button i {
   margin-right: 15px;
   font-size: 20px;
 }
 
 /* ------------------------------------------------------------------ */
-/* d. Resume Section
+/* d. chart Section
 /* ------------------------------------------------------------------ */
 
-#resume {
+#chart {
   background: #fff;
   padding-top: 90px;
   padding-bottom: 72px;
   overflow: hidden;
 }
 
-#resume a,
-#resume a:visited {
-  color: #f1b8f1;
+#chart a,
+#chart a:visited {
+  /* color: #f1b8f1; */
 }
-#resume a:hover,
-#resume a:focus {
+#chart a:hover,
+#chart a:focus {
   color: #313131;
 }
 
-#resume h1 {
+#chart h1 {
   font: 18px/24px "opensans-bold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-#resume h1 span {
+#chart h1 span {
   border-bottom: 3px solid #f1b8f1;
   padding-bottom: 6px;
 }
-#resume h3 {
+#chart h3 {
   font: 25px/30px "opensans-bold", sans-serif;
 }
 
-#resume .header-col {
+#chart .header-col {
   padding-top: 9px;
 }
-#resume .main-col {
+#chart .main-col {
   padding-right: 10%;
 }
 
@@ -310,17 +311,17 @@ ul#nav li.current a {
   padding-bottom: 24px;
   border-bottom: 1px solid #e8e8e8;
 }
-#resume .info {
+#chart .info {
   font: 16px/24px "librebaskerville-italic", serif;
   color: #6e7881;
   margin-bottom: 18px;
   margin-top: 9px;
 }
-#resume .info span {
+#chart .info span {
   margin-right: 5px;
   margin-left: 5px;
 }
-#resume .date {
+#chart .date {
   font: 15px/24px "opensans-regular", sans-serif;
   margin-top: 6px;
 }
@@ -368,104 +369,16 @@ ul#nav li.current a {
   line-height: 42px;
   border-radius: 0px;
 }
-/*
-.git {
-  	-moz-animation: git 2s ease;
-  	-webkit-animation: git 2s ease;
-}
-.illustrator {
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
-}
-.reactjs {
-  	-moz-animation: reactjs 2s ease;
-  	-webkit-animation: reactjs 2s ease;
-}
-.css {
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
-}
-.html5 {
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
-}
-.vuejs {
-  	-moz-animation: vuejs 2s ease;
-  	-webkit-animation: vuejs 2s ease;
-}
-.mongodb {
-  	-moz-animation: mongodb 2s ease;
-  	-webkit-animation: mongodb 2s ease;
-}
-
-@-moz-keyframes git {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-moz-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-moz-keyframes reactjs {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-moz-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-moz-keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-@-moz-keyframes vuejs {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-moz-keyframes mongodb {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-
-@-webkit-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-webkit-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-webkit-keyframes reactjs {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-webkit-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-webkit-keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-@-webkit-keyframes vuejs {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-webkit-keyframes mongodb {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}  */
-
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
 
-#portfolio {
+#map {
   background: white;
   padding-top: 60px;
   padding-bottom: 60px;
 }
-#portfolio h1 {
+#map h1 {
   font: 15px/24px "opensans-semibold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -475,10 +388,10 @@ ul#nav li.current a {
 }
 
 /* Portfolio Content */
-#portfolio-wrapper .columns {
+#map-wrapper .columns {
   margin-bottom: 60px;
 }
-.portfolio-item .item-wrap {
+.map-item .item-wrap {
   background: #fff;
   overflow: hidden;
   position: relative;
@@ -1040,7 +953,7 @@ call-to-action .button {
 footer {
   padding-top: 48px;
   margin-bottom: 48px;
-  color: #f1707d;
+  color: #336459;
   font-size: 14px;
   text-align: center;
   position: relative;

@@ -15,7 +15,7 @@ class Blog extends Component {
   render() {
     return (
       <section
-        id="blog"
+        id="background"
         style={{
           background: "white",
           textAlign: "center",
@@ -27,7 +27,7 @@ class Blog extends Component {
       >
         <Typography
           variant="body"
-          color="#f1707d"
+          color="#336459"
           style={{ fontWeight: "bold" }}
         >
           Accelerator

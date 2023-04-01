@@ -31,25 +31,25 @@ class Header extends Component {
             </li>
 
             <li>
-              <a className="smoothscroll" href="#about">
+              <a className="smoothscroll" href="#data">
                 Data
               </a>
             </li>
 
             <li>
-              <a className="smoothscroll" href="#resume">
+              <a className="smoothscroll" href="#chart">
                 Chart
               </a>
             </li>
 
             <li>
-              <a className="smoothscroll" href="#portfolio">
+              <a className="smoothscroll" href="#map">
                 Map
               </a>
             </li>
 
             <li>
-              <a className="smoothscroll" href="#blog">
+              <a className="smoothscroll" href="#background">
                 Accelerator
               </a>
             </li>
@@ -59,16 +59,21 @@ class Header extends Component {
         <div className="row banner">
           <div className="banner-text">
             <Fade bottom>
-              <h1 className="responsive-headline">Home page</h1>
+              {/* <h1 className="responsive-headline">Home page</h1> */}
+              <img src="/logo.svg" alt="logo" />
             </Fade>
+
             <Fade bottom duration={1200}>
-              <h3>description</h3>
+              <h2 style={{ color: "white" }}>ECO2 DRIVE</h2>
+              <h3 style={{ color: "white" }}>
+                I N T E L L I G E N T &ensp; D R I V I N G
+              </h3>
             </Fade>
           </div>
         </div>
 
         <p className="scrolldown">
-          <a className="smoothscroll" href="#about">
+          <a className="smoothscroll" href="#data">
             <i className="icon-down-circle"></i>
           </a>
         </p>

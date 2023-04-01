@@ -23,11 +23,11 @@ class Portfolio extends Component {
     ];
 
     return (
-      <section id="portfolio">
+      <section id="map">
         <Fade left duration={1000} distance="40px">
           <div className="row">
             <div className="twelve columns collapsed">
-              <h1 style={{ color: "#f1707d" }}>map here</h1>
+              <h1 style={{ color: "#336459" }}>map here</h1>
               <MapContainer
                 center={[47.5556, -52.7453]}
                 zoom={12}

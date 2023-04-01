@@ -5,7 +5,7 @@ import "./App.css";
 import "./style.css";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
-import About from "./Components/About";
+import Data from "./Components/Data";
 import Resume from "./Components/Resume";
 
 import Portfolio from "./Components/Portfolio";
@@ -16,20 +16,20 @@ class App extends Component {
     super(props);
     this.state = {
       foo: "bar",
-      resumeData: {},
+      chartData: {},
     };
 
     ReactGA.initialize("UA-110570651-1");
     ReactGA.pageview(window.location.pathname);
   }
 
-  getResumeData() {
+  getchartData() {
     $.ajax({
       url: "./resumeData.json",
       dataType: "json",
       cache: false,
       success: function (data) {
-        this.setState({ resumeData: data });
+        this.setState({ chartData: data });
       }.bind(this),
       error: function (xhr, status, err) {
         console.log(err);
@@ -39,18 +39,18 @@ class App extends Component {
   }
 
   componentDidMount() {
-    this.getResumeData();
+    this.getchartData();
   }
 
   render() {
     return (
       <div className="App">
-        <Header data={this.state.resumeData} />
-        <About data={this.state.resumeData} />
-        <Resume data={this.state.resumeData} />
-        <Portfolio data={this.state.resumeData} />
-        <Blog data={this.state.resumeData} />
-        <Footer data={this.state.resumeData.main} />
+        <Header data={this.state.chartData} />
+        <Data data={this.state.chartData} />
+        <Resume data={this.state.chartData} />
+        <Portfolio data={this.state.chartData} />
+        <Blog data={this.state.chartData} />
+        <Footer data={this.state.chartData.main} />
       </div>
     );
   }
