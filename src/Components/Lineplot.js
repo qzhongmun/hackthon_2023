@@ -6,8 +6,6 @@ import * as am5map from "@amcharts/amcharts5/map";
 import ".././App.css";
 import locationdata from "./locationdata.json";
 
-// import { useDispatch, useSelector } from "react-redux";
-
 export default function Lineplot(props) {
   var count = useLayoutEffect(() => {
     var root = am5.Root.new("chartdiv");

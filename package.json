@@ -18,13 +18,11 @@
     "particles-bg": "^2.5.5",
     "randomcolor": "^0.6.2",
     "react": "^18.2.0",
-    "react-awesome-lightbox": "^1.8.1",
     "react-dom": "^18.2.0",
     "react-ga": "^3.3.0",
     "react-helmet": "^6.1.0",
     "react-leaflet": "^4.2.1",
     "react-modal-image": "^2.6.0",
-    "react-redux": "^8.0.5",
     "react-reveal": "^1.2.2",
     "react-scripts": "^5.0.1",
     "web-vitals": "^1.0.1"
