@@ -64,11 +64,11 @@ class Portfolio extends Component {
 
                 {/* <Marker key={0} position={[-20, 30]} icon={icon} /> */}
                 <Polyline pathOptions={limeOptions} positions={polyline} />
-                {position.map((para) => (
+                {/* {position.map((para) => (
                   <Marker position={para}>
                     <Popup>this is a bump/pit, please slow down</Popup>
                   </Marker>
-                ))}
+                ))} */}
               </MapContainer>
 
               <div
