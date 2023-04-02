@@ -60,14 +60,14 @@ class Header extends Component {
           <div className="banner-text">
             <Fade bottom>
               {/* <h1 className="responsive-headline">Home page</h1> */}
-              <img src="/logo.svg" alt="logo" />
+              <img src="/17.png" alt="logo" />
             </Fade>
 
             <Fade bottom duration={1200}>
-              <h2 style={{ color: "white" }}>ECO2 DRIVE</h2>
-              <h3 style={{ color: "white" }}>
+              {/* <h2 style={{ color: "#f1707d" }}>ECO2 DRIVE</h2>
+              <h3 style={{ color: "#f1707d" }}>
                 I N T E L L I G E N T &ensp; D R I V I N G
-              </h3>
+              </h3> */}
             </Fade>
           </div>
         </div>

@@ -10,6 +10,9 @@ import Resume from "./Components/Resume";
 
 import Portfolio from "./Components/Portfolio";
 import Blog from "./Components/Blog";
+import * as am5 from "@amcharts/amcharts5";
+import * as am5xy from "@amcharts/amcharts5/xy";
+import am5themes_Animated from "@amcharts/amcharts5/themes/Animated";
 
 class App extends Component {
   constructor(props) {

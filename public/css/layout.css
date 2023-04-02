@@ -25,7 +25,9 @@
 body {
   /* background: #0f0f0f; */
   /* background: #336459; */
-  background: #336459;
+  /* background: #336459;
+   */
+  background: white;
 }
 
 /* ------------------------------------------------------------------ */
@@ -155,7 +157,8 @@ header .scrolldown a:hover {
 }
 .opaque {
   /* background-color: #333; */
-  background-color: #336459;
+  /* background-color: #336459; */
+  background-color: white;
 }
 
 /* hide toggle button */
@@ -200,7 +203,7 @@ ul#nav li a:active {
 }
 ul#nav li.current a {
   /* color: #fe6928; */
-  color: black;
+  /* color: black; */
   /* color: #7e2a2a; */
 
   /* color: #542f2b; */
@@ -218,14 +221,14 @@ ul#nav li.current a {
   overflow: hidden;
 }
 
-#data a,
+/* #data a,
 #data a:visited {
   color: #fff;
-}
-#data a:hover,
+} */
+/* #data a:hover,
 #data a:focus {
   color: #f1b8f1;
-}
+} */
 
 #data h2 {
   font: 22px/30px "opensans-bold", sans-serif;
